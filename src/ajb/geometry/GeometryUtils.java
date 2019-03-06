@@ -1,4 +1,4 @@
-package ajb.area;
+package ajb.geometry;
 
 import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
