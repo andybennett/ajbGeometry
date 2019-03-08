@@ -59,6 +59,13 @@ public class GeometryUtils {
 				RandomInt.anyRandomIntRange(10, 30))));
 
 	}
+	
+	public static void addBlockAtPoint(Area area, Point2D.Double point) {
+
+		area.add(new Area(new Rectangle2D.Double(point.x, point.y, RandomInt.anyRandomIntRange(1, 10),
+				RandomInt.anyRandomIntRange(10, 30))));
+
+	}	
 
 	public static void addRandomBlockAlongMinX(Area area) {
 
@@ -104,6 +111,13 @@ public class GeometryUtils {
 				RandomInt.anyRandomIntRange(1, 10))));
 
 	}
+	
+	public static void subtractBlockAtPoint(Area area, Point2D.Double point) {
+
+		area.subtract(new Area(new Rectangle2D.Double(point.x, point.y, RandomInt.anyRandomIntRange(1, 10),
+				RandomInt.anyRandomIntRange(1, 10))));
+
+	}	
 
 	public static void subtractRandomCircle(Area area) {
 
