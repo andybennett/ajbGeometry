@@ -55,8 +55,7 @@ public class GeometryUtils {
 
 		Point2D.Double point = GeometryUtils.findRandomPointWithinArea(area);
 
-		area.add(new Area(new Rectangle2D.Double(point.x, point.y, RandomInt.anyRandomIntRange(1, 10),
-				RandomInt.anyRandomIntRange(10, 30))));
+		addBlockAtPoint(area, point);
 
 	}
 	
